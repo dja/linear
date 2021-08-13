@@ -30590,6 +30590,18 @@
             "deprecationReason": null
           },
           {
+            "name": "triageEnabled",
+            "description": "Whether triage mode is enabled for the team.",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            },
+            "defaultValue": null,
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "timezone",
             "description": "The timezone of the team.",
             "type": {
@@ -30700,18 +30712,6 @@
           {
             "name": "private",
             "description": "Internal. Whether the team is private or not.",
-            "type": {
-              "kind": "SCALAR",
-              "name": "Boolean",
-              "ofType": null
-            },
-            "defaultValue": null,
-            "isDeprecated": false,
-            "deprecationReason": null
-          },
-          {
-            "name": "triageEnabled",
-            "description": "Whether triage mode is enabled for the team.",
             "type": {
               "kind": "SCALAR",
               "name": "Boolean",
